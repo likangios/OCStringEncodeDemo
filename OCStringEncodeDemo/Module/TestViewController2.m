@@ -20,25 +20,25 @@
 }
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear: animated];
-    NSLog(NEDecodeOcString(fOIPwsqLJpReDNgB,sizeof(fOIPwsqLJpReDNgB)),NSStringFromClass(self.class));
+    NSLog(@"%@",NSStringFromClass(self.class));
 }
 - (void)LY_TestMetdfahod1:(NSString *)arg1 andArg2:(NSString *)arg2{
-    NSLog(NEDecodeOcString(IwHZPPhuccZJUeId,sizeof(IwHZPPhuccZJUeId)),__FUNCTION__);
+    NSLog(@"%s",__FUNCTION__);
 }
 - (void)LY_TestdafMethod1{
-    NSLog(NEDecodeOcString(IwHZPPhuccZJUeId,sizeof(IwHZPPhuccZJUeId)),__FUNCTION__);
+    NSLog(@"%s",__FUNCTION__);
 }
 - (void)LY_TestMethfdsaod1{
-    NSLog(NEDecodeOcString(IwHZPPhuccZJUeId,sizeof(IwHZPPhuccZJUeId)),__FUNCTION__);
+    NSLog(@"%s",__FUNCTION__);
 }
 - (void)LY_TestMadfethod1{
-    NSLog(NEDecodeOcString(IwHZPPhuccZJUeId,sizeof(IwHZPPhuccZJUeId)),__FUNCTION__);
+    NSLog(@"%s",__FUNCTION__);
 }
 - (void)LY_TestMedfdthod1{
-    NSLog(NEDecodeOcString(IwHZPPhuccZJUeId,sizeof(IwHZPPhuccZJUeId)),__FUNCTION__);
+    NSLog(@"%s",__FUNCTION__);
 }
 - (void)LY_TestMetdfdho{
-    NSLog(NEDecodeOcString(IwHZPPhuccZJUeId,sizeof(IwHZPPhuccZJUeId)),__FUNCTION__);
+    NSLog(@"%s",__FUNCTION__);
 }
 
 - (void)didReceiveMemoryWarning {

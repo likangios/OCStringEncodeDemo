@@ -16,14 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(NEDecodeOcString(LtyDErdNeRGTiZrn,sizeof(LtyDErdNeRGTiZrn)));
+    NSLog(@"Hello World!");
     NSString *string = @"你好";
     NSString *string2 = @"世界";
     NSString *string3 = @"！";
-    NSLog(NEDecodeOcString(bVXGLfnucEBiYluO,sizeof(bVXGLfnucEBiYluO)),string,string2,string3);
+    NSLog(@"%@ %@%@",string,string2,string3);
     NSString *host = @"http://www.baidu.com";//带: 不能混淆 
-    NSString *url = NEDecodeOcString(ZdOQPARCbVSIPrDi,sizeof(ZdOQPARCbVSIPrDi));
-    NSString *url = [NSString stringWithFormat:NEDecodeOcString(bYfHcQjZCRGnMScy,sizeof(bYfHcQjZCRGnMScy)),host,api];
+    NSString *url = @"//api/login";
+    NSString *url = [NSString stringWithFormat:@"%@%@",host,api];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
