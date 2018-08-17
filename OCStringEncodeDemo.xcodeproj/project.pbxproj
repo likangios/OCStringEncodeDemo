@@ -67,7 +67,7 @@
 		7981AC3E2126A565003867C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7981AC3F2126A565003867C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7981AC472126A62E003867C8 /* confuse.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = "<group>"; };
-		7981AC482126A62E003867C8 /* FirstScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = FirstScript.sh; sourceTree = "<group>"; };
+		7981AC482126A62E003867C8 /* extractString.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = extractString.sh; sourceTree = "<group>"; };
 		7981AC492126A62E003867C8 /* replace.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = replace.sh; sourceTree = "<group>"; };
 		7981AC4A2126A62E003867C8 /* restore.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = restore.sh; sourceTree = "<group>"; };
 		7981AC4D2126A716003867C8 /* TestViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 				7981AC6B2126AAFD003867C8 /* DecodeStringMethod.list */,
 				7981AC6C2126AAFD003867C8 /* func.list */,
 				7981AC472126A62E003867C8 /* confuse.sh */,
-				7981AC482126A62E003867C8 /* FirstScript.sh */,
+				7981AC482126A62E003867C8 /* extractString.sh */,
 				7981AC492126A62E003867C8 /* replace.sh */,
 				7981AC4A2126A62E003867C8 /* restore.sh */,
 				7981AC462126A572003867C8 /* Module */,
@@ -251,7 +251,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "$PROJECT_DIR/$PROJECT_NAME/confuse.sh\n$PROJECT_DIR/$PROJECT_NAME/FirstScript.sh\n";
+			shellScript = "$PROJECT_DIR/$PROJECT_NAME/confuse.sh\n$PROJECT_DIR/$PROJECT_NAME/extractString.sh\n";
 		};
 		7981AC5C2126A77C003867C8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
